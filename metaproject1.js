@@ -24,6 +24,7 @@ function mintNFT (owner, model, brand, price,) {
       
     };
     someNFT.push(Nft);
+   console.log("minted: " + owner);
 }
 
 // create a "loop" that will go through an "array" of NFT's
@@ -44,9 +45,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Devi singh", "iphone 15 pro", "apple", "100000");
-mintNFT("Rahul rao", "galaxy s24 ultra", "sumsang", "100000");
-mintNFT("kurmeet", "oneplus 11", "oneplus", "60000");
-mintNFT("Ankit", "iphone 14", "apple", "70000");
+mintNFT("Devi Singh", "iPhone 15 pro", "Apple", "100000");
+mintNFT("Rahul Rao", "Galaxy s24 ultra", "Samsung", "100000");
+mintNFT("kurmeet", "Oneplus 11", "Oneplus", "60000");
+mintNFT("Ankit", "iPhone 14", "Apple", "70000");
 listNFTs();
 getTotalSupply();
